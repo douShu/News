@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h9O-oN-6Vs">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -19,9 +19,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rtD-gg-oNy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-714" y="444"/>
+            <point key="canvasLocation" x="-926" y="359"/>
         </scene>
-        <!--Home View Controller-->
+        <!--网易彩票-->
         <scene sceneID="Tbh-Df-q5N">
             <objects>
                 <viewController id="dfQ-qC-WhN" customClass="HomeViewController" sceneMemberID="viewController">
@@ -32,14 +32,70 @@
                     <view key="view" contentMode="scaleToFill" id="E8N-Sv-u2c">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcZ-yo-LCZ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="50"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yv2-60-RfC">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.81851136800000002" green="1" blue="0.41618843709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Yv2-60-RfC" secondAttribute="trailing" id="EXC-5o-XQ1"/>
+                                    <constraint firstAttribute="height" constant="50" id="ErR-Tq-Cao"/>
+                                    <constraint firstItem="Yv2-60-RfC" firstAttribute="leading" secondItem="lcZ-yo-LCZ" secondAttribute="leading" id="LpQ-TT-cKg"/>
+                                    <constraint firstItem="Yv2-60-RfC" firstAttribute="top" secondItem="lcZ-yo-LCZ" secondAttribute="top" id="jUr-fS-Ok5"/>
+                                    <constraint firstAttribute="bottom" secondItem="Yv2-60-RfC" secondAttribute="bottom" id="nXW-xc-HGF"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QHM-RE-uQX">
+                                <rect key="frame" x="0.0" y="114" width="320" height="366"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JJs-Y4-G7V">
+                                    <size key="itemSize" width="239" height="210"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="RPK-8m-cox" customClass="ChannelCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="239" height="210"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="dfQ-qC-WhN" id="ph1-7V-toG"/>
+                                    <outlet property="delegate" destination="dfQ-qC-WhN" id="tEG-e7-sTe"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QHM-RE-uQX" firstAttribute="leading" secondItem="E8N-Sv-u2c" secondAttribute="leading" id="1Jz-xt-ftX"/>
+                            <constraint firstItem="QHM-RE-uQX" firstAttribute="top" secondItem="lcZ-yo-LCZ" secondAttribute="bottom" id="7OZ-kH-Jd2"/>
+                            <constraint firstItem="lcZ-yo-LCZ" firstAttribute="top" secondItem="fLF-LW-3RE" secondAttribute="bottom" id="8GZ-T0-MQ3"/>
+                            <constraint firstItem="PWz-wV-ely" firstAttribute="top" secondItem="QHM-RE-uQX" secondAttribute="bottom" id="NYK-9M-Ldg"/>
+                            <constraint firstItem="lcZ-yo-LCZ" firstAttribute="leading" secondItem="E8N-Sv-u2c" secondAttribute="leading" id="Smg-Ov-ySr"/>
+                            <constraint firstAttribute="trailing" secondItem="QHM-RE-uQX" secondAttribute="trailing" id="bFf-by-su2"/>
+                            <constraint firstAttribute="trailing" secondItem="lcZ-yo-LCZ" secondAttribute="trailing" id="rCp-Ox-0Cw"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="0hq-oq-mMw"/>
+                    <navigationItem key="navigationItem" title="网易彩票" id="0hq-oq-mMw"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="QHM-RE-uQX" id="mKI-AW-Mhe"/>
+                        <outlet property="layout" destination="JJs-Y4-G7V" id="YUK-b7-OHU"/>
+                        <outlet property="scrollView" destination="Yv2-60-RfC" id="gDt-Mu-gqH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zR8-6N-aeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-341" y="425"/>
+            <point key="canvasLocation" x="-506" y="353"/>
         </scene>
     </scenes>
 </document>

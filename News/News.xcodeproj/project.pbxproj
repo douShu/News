@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4B6CAD1B95A36A0077FFF2 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B6CAC1B95A36A0077FFF2 /* NSArray+Log.m */; };
 		DB681B7A1B9476B4009304CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB681B791B9476B4009304CD /* main.m */; };
 		DB681B7D1B9476B4009304CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB681B7C1B9476B4009304CD /* AppDelegate.m */; };
 		DB681B851B9476B4009304CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB681B841B9476B4009304CD /* Images.xcassets */; };
@@ -25,6 +26,22 @@
 		DB681CC21B947760009304CD /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB681CC11B947760009304CD /* News.storyboard */; };
 		DB681CC51B947773009304CD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB681CC41B947773009304CD /* HomeViewController.m */; };
 		DB681CC81B9477AA009304CD /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB681CC71B9477AA009304CD /* NewsTableViewController.m */; };
+		DB8D1EAA1B96F4BD00260472 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EA91B96F4BD00260472 /* News.m */; };
+		DB8D1EB01B96FA7400260472 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EAF1B96FA7400260472 /* NetworkTools.m */; };
+		DB8D1EB41B973E5D00260472 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EB31B973E5D00260472 /* NewsCell.m */; };
+		DB8D1EC71B9747F500260472 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EB71B9747F500260472 /* AFNetworkActivityIndicatorManager.m */; };
+		DB8D1EC81B9747F500260472 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EB91B9747F500260472 /* UIActivityIndicatorView+AFNetworking.m */; };
+		DB8D1EC91B9747F500260472 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EBB1B9747F500260472 /* UIAlertView+AFNetworking.m */; };
+		DB8D1ECA1B9747F500260472 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EBD1B9747F500260472 /* UIButton+AFNetworking.m */; };
+		DB8D1ECB1B9747F500260472 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EBF1B9747F500260472 /* UIImageView+AFNetworking.m */; };
+		DB8D1ECC1B9747F500260472 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EC21B9747F500260472 /* UIProgressView+AFNetworking.m */; };
+		DB8D1ECD1B9747F500260472 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EC41B9747F500260472 /* UIRefreshControl+AFNetworking.m */; };
+		DB8D1ECE1B9747F500260472 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1EC61B9747F500260472 /* UIWebView+AFNetworking.m */; };
+		DB8D1ED11B97584C00260472 /* ChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D1ED01B97584C00260472 /* ChannelCell.m */; };
+		DB9B85C41B9498CD0001866D /* ChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B85C31B9498CD0001866D /* ChannelLabel.m */; };
+		DB9B85C61B9499270001866D /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = DB9B85C51B9499270001866D /* topic_news.json */; };
+		DB9B85C91B949B380001866D /* ChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B85C81B949B380001866D /* ChannelModel.m */; };
+		DB9B85CC1B949C130001866D /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B85CB1B949C130001866D /* NSObject+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB4B6CAB1B95A36A0077FFF2 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		DB4B6CAC1B95A36A0077FFF2 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		DB681B741B9476B4009304CD /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB681B781B9476B4009304CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB681B791B9476B4009304CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,6 +92,39 @@
 		DB681CC41B947773009304CD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		DB681CC61B9477AA009304CD /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		DB681CC71B9477AA009304CD /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		DB8D1EA81B96F4BD00260472 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		DB8D1EA91B96F4BD00260472 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		DB8D1EAE1B96FA7400260472 /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		DB8D1EAF1B96FA7400260472 /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
+		DB8D1EB11B96FA9200260472 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		DB8D1EB21B973E5D00260472 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		DB8D1EB31B973E5D00260472 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		DB8D1EB61B9747F500260472 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		DB8D1EB71B9747F500260472 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		DB8D1EB81B9747F500260472 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EB91B9747F500260472 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1EBA1B9747F500260472 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EBB1B9747F500260472 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1EBC1B9747F500260472 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EBD1B9747F500260472 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1EBE1B9747F500260472 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EBF1B9747F500260472 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1EC01B9747F500260472 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EC11B9747F500260472 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EC21B9747F500260472 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1EC31B9747F500260472 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EC41B9747F500260472 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1EC51B9747F500260472 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB8D1EC61B9747F500260472 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		DB8D1ECF1B97584C00260472 /* ChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelCell.h; sourceTree = "<group>"; };
+		DB8D1ED01B97584C00260472 /* ChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelCell.m; sourceTree = "<group>"; };
+		DB9B85C21B9498CD0001866D /* ChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelLabel.h; sourceTree = "<group>"; };
+		DB9B85C31B9498CD0001866D /* ChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelLabel.m; sourceTree = "<group>"; };
+		DB9B85C51B9499270001866D /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		DB9B85C71B949B380001866D /* ChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelModel.h; sourceTree = "<group>"; };
+		DB9B85C81B949B380001866D /* ChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelModel.m; sourceTree = "<group>"; };
+		DB9B85CA1B949C130001866D /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		DB9B85CB1B949C130001866D /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB4B6CAA1B95A36A0077FFF2 /* 4-打印出汉字数组:字典 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B6CAB1B95A36A0077FFF2 /* NSArray+Log.h */,
+				DB4B6CAC1B95A36A0077FFF2 /* NSArray+Log.m */,
+			);
+			path = "4-打印出汉字数组:字典";
+			sourceTree = "<group>";
+		};
 		DB681B6B1B9476B4009304CD = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +186,8 @@
 		DB681B771B9476B4009304CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB4B6CAA1B95A36A0077FFF2 /* 4-打印出汉字数组:字典 */,
+				DB8D1EB51B9747F500260472 /* UIKit+AFNetworking */,
 				DB681C9E1B9476FE009304CD /* AFNetworking */,
 				DB681B841B9476B4009304CD /* Images.xcassets */,
 				DB681B861B9476B4009304CD /* LaunchScreen.xib */,
@@ -193,6 +256,13 @@
 				DB681CBF1B947758009304CD /* Home.storyboard */,
 				DB681CC31B947773009304CD /* HomeViewController.h */,
 				DB681CC41B947773009304CD /* HomeViewController.m */,
+				DB8D1ECF1B97584C00260472 /* ChannelCell.h */,
+				DB8D1ED01B97584C00260472 /* ChannelCell.m */,
+				DB9B85C21B9498CD0001866D /* ChannelLabel.h */,
+				DB9B85C31B9498CD0001866D /* ChannelLabel.m */,
+				DB9B85C71B949B380001866D /* ChannelModel.h */,
+				DB9B85C81B949B380001866D /* ChannelModel.m */,
+				DB9B85C51B9499270001866D /* topic_news.json */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -203,6 +273,10 @@
 				DB681CC11B947760009304CD /* News.storyboard */,
 				DB681CC61B9477AA009304CD /* NewsTableViewController.h */,
 				DB681CC71B9477AA009304CD /* NewsTableViewController.m */,
+				DB8D1EB21B973E5D00260472 /* NewsCell.h */,
+				DB8D1EB31B973E5D00260472 /* NewsCell.m */,
+				DB8D1EA81B96F4BD00260472 /* News.h */,
+				DB8D1EA91B96F4BD00260472 /* News.m */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -210,8 +284,37 @@
 		DB681CBE1B94773E009304CD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				DB9B85CA1B949C130001866D /* NSObject+Extension.h */,
+				DB9B85CB1B949C130001866D /* NSObject+Extension.m */,
+				DB8D1EAE1B96FA7400260472 /* NetworkTools.h */,
+				DB8D1EAF1B96FA7400260472 /* NetworkTools.m */,
+				DB8D1EB11B96FA9200260472 /* singleton.h */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		DB8D1EB51B9747F500260472 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D1EB61B9747F500260472 /* AFNetworkActivityIndicatorManager.h */,
+				DB8D1EB71B9747F500260472 /* AFNetworkActivityIndicatorManager.m */,
+				DB8D1EB81B9747F500260472 /* UIActivityIndicatorView+AFNetworking.h */,
+				DB8D1EB91B9747F500260472 /* UIActivityIndicatorView+AFNetworking.m */,
+				DB8D1EBA1B9747F500260472 /* UIAlertView+AFNetworking.h */,
+				DB8D1EBB1B9747F500260472 /* UIAlertView+AFNetworking.m */,
+				DB8D1EBC1B9747F500260472 /* UIButton+AFNetworking.h */,
+				DB8D1EBD1B9747F500260472 /* UIButton+AFNetworking.m */,
+				DB8D1EBE1B9747F500260472 /* UIImageView+AFNetworking.h */,
+				DB8D1EBF1B9747F500260472 /* UIImageView+AFNetworking.m */,
+				DB8D1EC01B9747F500260472 /* UIKit+AFNetworking.h */,
+				DB8D1EC11B9747F500260472 /* UIProgressView+AFNetworking.h */,
+				DB8D1EC21B9747F500260472 /* UIProgressView+AFNetworking.m */,
+				DB8D1EC31B9747F500260472 /* UIRefreshControl+AFNetworking.h */,
+				DB8D1EC41B9747F500260472 /* UIRefreshControl+AFNetworking.m */,
+				DB8D1EC51B9747F500260472 /* UIWebView+AFNetworking.h */,
+				DB8D1EC61B9747F500260472 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +400,7 @@
 				DB681CC01B947758009304CD /* Home.storyboard in Resources */,
 				DB681B881B9476B4009304CD /* LaunchScreen.xib in Resources */,
 				DB681B851B9476B4009304CD /* Images.xcassets in Resources */,
+				DB9B85C61B9499270001866D /* topic_news.json in Resources */,
 				DB681CC21B947760009304CD /* News.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,17 +421,33 @@
 			files = (
 				DB681CB21B9476FE009304CD /* AFHTTPRequestOperation.m in Sources */,
 				DB681CB31B9476FE009304CD /* AFHTTPRequestOperationManager.m in Sources */,
+				DB8D1EAA1B96F4BD00260472 /* News.m in Sources */,
 				DB681CB51B9476FE009304CD /* AFNetworkReachabilityManager.m in Sources */,
 				DB681CB91B9476FE009304CD /* AFURLResponseSerialization.m in Sources */,
+				DB8D1EC71B9747F500260472 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				DB4B6CAD1B95A36A0077FFF2 /* NSArray+Log.m in Sources */,
+				DB9B85C91B949B380001866D /* ChannelModel.m in Sources */,
 				DB681CB71B9476FE009304CD /* AFURLConnectionOperation.m in Sources */,
 				DB681CB61B9476FE009304CD /* AFSecurityPolicy.m in Sources */,
 				DB681CB41B9476FE009304CD /* AFHTTPSessionManager.m in Sources */,
+				DB8D1ED11B97584C00260472 /* ChannelCell.m in Sources */,
+				DB8D1ECB1B9747F500260472 /* UIImageView+AFNetworking.m in Sources */,
+				DB8D1ECC1B9747F500260472 /* UIProgressView+AFNetworking.m in Sources */,
 				DB681CB81B9476FE009304CD /* AFURLRequestSerialization.m in Sources */,
+				DB8D1ECD1B9747F500260472 /* UIRefreshControl+AFNetworking.m in Sources */,
+				DB9B85C41B9498CD0001866D /* ChannelLabel.m in Sources */,
 				DB681CC81B9477AA009304CD /* NewsTableViewController.m in Sources */,
+				DB8D1ECA1B9747F500260472 /* UIButton+AFNetworking.m in Sources */,
+				DB8D1EC81B9747F500260472 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				DB681CBA1B9476FE009304CD /* AFURLSessionManager.m in Sources */,
 				DB681B7D1B9476B4009304CD /* AppDelegate.m in Sources */,
 				DB681B7A1B9476B4009304CD /* main.m in Sources */,
 				DB681CC51B947773009304CD /* HomeViewController.m in Sources */,
+				DB8D1EB01B96FA7400260472 /* NetworkTools.m in Sources */,
+				DB8D1ECE1B9747F500260472 /* UIWebView+AFNetworking.m in Sources */,
+				DB8D1EB41B973E5D00260472 /* NewsCell.m in Sources */,
+				DB9B85CC1B949C130001866D /* NSObject+Extension.m in Sources */,
+				DB8D1EC91B9747F500260472 /* UIAlertView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +634,7 @@
 				DB681B991B9476B4009304CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB681B9A1B9476B4009304CD /* Build configuration list for PBXNativeTarget "NewsTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +643,7 @@
 				DB681B9C1B9476B4009304CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,5 @@
 
 @interface NewsTableViewController : UITableViewController
 
+@property (nonatomic, copy) NSString *tid;
 @end
